@@ -1,0 +1,58 @@
+{
+    "0xf9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b": {
+        "name": "BTC",
+        "symbol": "BTC",
+        "logo": "https://assets.coingecko.com/coins/images/1/standard/bitcoin.png?1696501400",
+        "asset_type": "0x43417434fd869edee76cca2a4d2301e528a1551b1d719b75c350c3c97d15b8b9::coins::BTC",
+        "decimals": "8"
+    },
+    "0x44a93dddd8effa54ea51076c4e851b6cbbfd938e82eb90197de38fe8876bb66e": {
+        "name": "APT",
+        "symbol": "APT",
+        "logo": "https://assets.coingecko.com/coins/images/26455/standard/aptos_round.png?1696525528",
+        "asset_type": "0x1::aptos_coin::AptosCoin",
+        "decimals": "8"
+    },
+    "0xca80ba6dc32e08d06f1aa886011eed1d77c77be9eb761cc10d72b7d0a2fd57a6": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "logo": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
+        "asset_type": "0xb4d7b2466d211c1f4629e8340bb1a9e75e7f8fb38cc145c54c5c9f9d5017a318::coins_extended::ETH",
+        "decimals": "8"
+    },
+    "0x41f3625971ca2ed2263e78573fe5ce23e13d2558ed3f2e47ab0f84fb9e7ae722": {
+        "name": "USDC",
+        "symbol": "USDC",
+        "decimals": "6",
+        "logo": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694",
+        "asset_type": "0xb4d7b2466d211c1f4629e8340bb1a9e75e7f8fb38cc145c54c5c9f9d5017a318::coins_extended::USDC"
+    },
+    "0x43417434fd869edee76cca2a4d2301e528a1551b1d719b75c350c3c97d15b8b9::coins::BTC": {
+        "name": "BTC",
+        "symbol": "BTC",
+        "logo": "https://assets.coingecko.com/coins/images/1/standard/bitcoin.png?1696501400",
+        "asset_type": "0x43417434fd869edee76cca2a4d2301e528a1551b1d719b75c350c3c97d15b8b9::coins::BTC",
+        "decimals": "8"
+    },
+    "0x1::aptos_coin::AptosCoin": {
+        "name": "APT",
+        "symbol": "APT",
+        "logo": "https://assets.coingecko.com/coins/images/26455/standard/aptos_round.png?1696525528",
+        "asset_type": "0x1::aptos_coin::AptosCoin",
+        "decimals": "8"
+    },
+    "0xb4d7b2466d211c1f4629e8340bb1a9e75e7f8fb38cc145c54c5c9f9d5017a318::coins_extended::ETH": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "logo": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
+        "asset_type": "0xb4d7b2466d211c1f4629e8340bb1a9e75e7f8fb38cc145c54c5c9f9d5017a318::coins_extended::ETH",
+        "decimals": "8"
+    },
+    "0xb4d7b2466d211c1f4629e8340bb1a9e75e7f8fb38cc145c54c5c9f9d5017a318::coins_extended::USDC": {
+        "name": "USDC",
+        "symbol": "USDC",
+        "decimals": "6",
+        "logo": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694",
+        "asset_type": "0xb4d7b2466d211c1f4629e8340bb1a9e75e7f8fb38cc145c54c5c9f9d5017a318::coins_extended::USDC"
+    }
+}
