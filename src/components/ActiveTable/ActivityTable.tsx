@@ -172,7 +172,7 @@ const ActivityTable = ({ activityList, vaultInfo }: any) => {
                                             }}>
                                                 {"USD"}
                                             </span>
-                                            <Avatar className={classes.avatar} src={"https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"} />
+                                            {/* <Avatar className={classes.avatar} src={"https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"} /> */}
                                         </div>
                                     </Tooltip>
                                 </div>

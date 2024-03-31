@@ -186,8 +186,7 @@ const CreateVaultPage = () => {
           {createStatus.status === 'success' && (
             <>
               <div className={classes.createModalText}>
-                Successfully created a active fund! You can find it in "Invest
-                in Fund".
+                Successfully created an active fund! You can find it in "Invest in Fund".
               </div>
             </>
           )}

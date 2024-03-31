@@ -121,7 +121,7 @@ const DetailsPage = () => {
     try {
       const response = await signAndSubmitTransaction(transaction);
       await aptos.waitForTransaction({ transactionHash: response.hash })
-      setInvestModalState({ state: "success", msg: "Invest success!" })
+      setInvestModalState({ state: "success", msg: "Invest successful!" })
       refreshPageData()
     } catch (e) {
       setInvestModalState({ state: "error", msg: "Signing declined!" })
@@ -357,7 +357,7 @@ const DetailsPage = () => {
       const response = await signAndSubmitTransaction(transaction);
       await aptos.waitForTransaction({ transactionHash: response.hash })
       refreshPageData()
-      setReddeemModalState({ state: "success", msg: "Reddeem success!" })
+      setReddeemModalState({ state: "success", msg: "Redeem successful!" })
     } catch (e) {
       setReddeemModalState({ state: "error", msg: "Signing declined!" })
     }
@@ -376,7 +376,7 @@ const DetailsPage = () => {
       const response = await signAndSubmitTransaction(transaction);
       await aptos.waitForTransaction({ transactionHash: response.hash })
       refreshPageData()
-      setSwapModalState({ state: "success", msg: "swap Success!" })
+      setSwapModalState({ state: "success", msg: "Swap Success!" })
     } catch (e) {
       setSwapModalState({ state: "error", msg: "Signing declined!" })
     }
@@ -845,7 +845,7 @@ const DetailsPage = () => {
                 marginRight: "6px",
                 marginLeft: "6px",
               }}
-              className="switchNetworksBtn"
+              className={"switchNetworksBtn"}
               onClick={async () => {
                 setReddeemModal(true)
               }}
@@ -854,10 +854,10 @@ const DetailsPage = () => {
               <span className={classes.headerRightTitle}>Reddeem</span>
             </div>
             <div
-              className="switchNetworksBtn"
+              className={vaultInfo.creator === account?.address ? "switchNetworksBtn" : "disabled"}
               onClick={async () => {
+                if (vaultInfo.creator !== account?.address) return
                 setSwapModalOpen(true)
-                // swapEvt()
               }}
             >
               <SwapOutlined />
@@ -892,7 +892,7 @@ const DetailsPage = () => {
           </div>
         </div>
         <Tabs defaultActiveKey="1" items={items} />
-      </div>
+      </div >
     </>
   );
 };

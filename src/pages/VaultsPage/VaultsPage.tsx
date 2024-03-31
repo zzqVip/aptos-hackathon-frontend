@@ -15,8 +15,6 @@ const VaultsPage = () => {
             functionArguments: [],
         };
         const list = await aptos.view({ payload }) as any
-
-
         setTokens(list[0])
     }
     const getVaultList = async () => {
@@ -26,7 +24,8 @@ const VaultsPage = () => {
             functionArguments: [],
         };
         const list = await aptos.view({ payload })
-        console.log(list[0], moduleAddress);
+        console.log(list[0]);
+        list[0].sort((a, b) => b.created_time - a.created_time)
         setDataSource(list[0])
         setLoading(false)
     }
